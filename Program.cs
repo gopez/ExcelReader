@@ -9,7 +9,8 @@ namespace ExcelReader
     {
         static void Main(string[] args)
         {
-            string filename    = "data.xlsx";
+            string filename    = "data.xlsx"; // sample
+
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName; 
             string dataPath    = Path.Combine(projectPath, filename);
             
